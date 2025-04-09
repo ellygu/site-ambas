@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(68, 61, 64);
+}
+ul{
+    margin: 10px;
+     
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 20px;
+
+    
+
+    }
+    ul li:hover{
+        background-color: rgb(64, 65, 64);
+        color: azure;
+
+    }
+    h1{
+        margin: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 26px;
+        color: aliceblue;
+        text-align: center;
+        margin: 10px;
+
+    }
+    p{
+        font-size: 16px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: justify;
+        padding: 10px;
+    }
+    h2{
+        margin: 10px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
+        padding: 10px;
+    }
+    button{
+       border: 10px;
+       border-radius: 16px;
+       background-color:gray ;
+    }
+    button:hover{
+        background-color: rgb(39, 32, 32);
+    }
+    .servicos{
+        width:150px ;
+        height: 150px;
+        
+    }
+    .palpites{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+        color:black;
+
+       padding: 20px;
+       background-color: #f0f0f0;
+       text-align: center;
+       border-radius: 10px;
+
+    }
+   .jogos{
+        font-size:30px;
+        margin: 10px;
+        padding: 10px;
+        color:black;
+   }
+   .container{
+    display: flex;
+    gap:10px ;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+   }
+   footer{
+    width: 100vw;
+            height: 50px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            position: fixed;
+            bottom: 0;
+   }
+    
